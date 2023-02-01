@@ -25,7 +25,7 @@ img1.addEventListener("click",()=> {
      emali = document.getElementById("eml").value;
      username = document.getElementById("dusername").value;
      // popup.style.display="none";
-     confirm(" Done move to next page")
+     alert(" Done... move to next page")
   })
   
 //display details
@@ -103,7 +103,7 @@ img1.addEventListener("click",()=> {
       }
      
     })
-   // 
+  
 
     const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     function generateString(length) {
