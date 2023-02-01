@@ -1,0 +1,46 @@
+
+.row{
+    display: flex;
+}
+ 
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: flex;
+  }
+  .popup{
+    display: none;
+    
+  }
+  form {
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    border-style: solid;
+    text-align: center;
+  }
+  .hide{
+    display: none;
+  }
+  #dice{
+    width: 200px;
+    display:none;
+  }
+
+  #congrats{
+    display: none;
+  }
